@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class example1031 {
+public class Iexample1031 {
 
 	public static void main(String[] args) {
 //		명령어를 입력해주세요 : sdfsdf
