@@ -35,12 +35,20 @@ public class Zexample1101 {
 	    		for(int i = 0 ; i < index; i++) {
 	    		System.out.println("번호 : " + ids[i]); //식별 값, 중복 X
 	    		System.out.println("제목 : " + titles[i]);
+	    		System.out.println("내용 : " + bodies[i]);
 	    		System.out.println("=================");
 	    		}
 	    	 }
+		
+	    		
+	    		
+	    		
+	    	
+	    	
 	    
 	       }
  	
 	}
 
-}
+	}
+

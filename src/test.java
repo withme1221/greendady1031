@@ -1,9 +1,10 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class test {
 
 	public static void main(String[] args) {
-		
+	Scanner cmd = new Scanner(System.in);
 
 	int id = 1;			
 	
@@ -30,7 +31,18 @@ public class test {
 //		
 //	}
 //	index--;
-	articleList.remove(0);
+	
+	System.out.print("명령어를 입력해 주세요 : ");
+	String str = cmd.nextLine();
+	if(str.equals("update")) {
+		System.out.print("수정할 게시물 번호 : ");
+		String str1 = cmd.nextLine();
+	    articleList.set(0, a3);
+	  
+		
+		
+	}
+
 	
 	
 	for(int i = 0 ; i < articleList.size(); i++) {
