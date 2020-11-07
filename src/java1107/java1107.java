@@ -23,7 +23,7 @@ public class java1107 {
 	public static void main(String[] args) {		
 		
 		Scanner sc = new Scanner(System.in);
-		ArrayList<Article> articles = new ArrayList<>();
+		
 		
 		
 		int id = 1;
